@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	font-size : 16px;
+	font-family: 'Indie Flower', cursive;
+	line-height: 1.5em;
+	background: #856363;
+}
+
+#container {
+	background: #8C7853;
+	margin: 50px auto;
+	overflow: auto;
+	width: 60%;
+	min-height: 630px;
+}
+
+header h1 {
+	color: #E6E8FA ;
+	font-size: 22px;
+	padding: 15px 0 10px 10px;
+	border-bottom: 1px solid #236B8E;
+}
+
+#shouts {
+	width: 90%;
+	background: #545454;
+	height: 400px;
+	margin: 20px auto;
+	overflow: auto;
+}
+
+.shout {
+	list-style: none;
+	padding: 8px;
+	border-bottom: 1px solid #236B8E;
+	color: #E6E8FA;
+}
+
+.shout span {
+	color: #E6E8FA;
+}
+
+#input {
+	width: 90%;
+	min-height: 80px;
+	margin: auto;
+	padding: 0;
+}
+
+#input input {
+	height: 25px;
+	width: 48%;
+	padding: 3px;
+	margin-bottom: 20px;
+	border: 1px solid #236B8E;
+}
+
+#input .shout-btn {
+	padding: 5px;
+	margin-bottom: 30px;
+	width: 100%;
+	margin: 10px auto;
+}
+
+.error {
+	background: red;
+	color: white;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	#input input {
+		width: 90%;
+	}
+}
